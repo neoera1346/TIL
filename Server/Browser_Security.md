@@ -127,7 +127,7 @@ messages.appendChild(message);
 
 ---
 
-Regex가 아직 많이 어렵지만, 관련 자료가 많이 있고, 장점이 많이 있다.
+`Regex`가 아직 많이 어렵지만, 관련 자료가 많이 있고, 장점이 많이 있다.
 XSS 공격을 방어할 수 있는 정규표현식에 대해 아래 자료들을 통해 더 알아보자!
 
 [RegEx Tutorial](https://flaviocopes.com/javascript-regular-expressions/#introduction-to-regular-expressions)
