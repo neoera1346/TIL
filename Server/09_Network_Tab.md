@@ -117,6 +117,7 @@ Content-Type: text/html
 
 ## Useful Links
 
+- [HTTP Transaction 해부](https://nodejs.org/ko/docs/guides/anatomy-of-an-http-transaction/)
 - [cURL Related](https://curl.se/docs/httpscripting.html)
 - [Postman](https://www.postman.com/downloads/)
   - Useful to test APIs, HTTP headers and stuff
