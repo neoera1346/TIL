@@ -57,6 +57,8 @@ messages.appendChild(message);
 </html>
 ```
 
+---
+
 ## CSRF
 
 > Server가 Client를 신뢰해서 발생하는 이슈이다. **CSRF !== XSS**
@@ -90,6 +92,8 @@ messages.appendChild(message);
 
 - Access-Control-Allow-Origin Header
 
+---
+
 ## CORS 3가지 시나리오
 
 - Pre-flight Request
@@ -116,26 +120,29 @@ messages.appendChild(message);
 - XSS 공격의 대상/희생자: 어플리케이션이 아닌 그 이용자
 - XSS 공격에서 해로운 컨텐츠는 JS를 활용하여 전달된다.
 
-#### XSS 방어 기법
+---
 
-- Sanitizing Data
-  - filter_var
-- Validating Data
+## XSS 방어 기법
+
+- **Sanitizing Data**
+  - `filter_var`
+- **Validating Data**
   - 유효성 검사를 통해서 데이터를 검증한다.
-- Escaping filters
-  - Regex 정규표현식 사용을 통해 문자열을 변환한다.
+- **Escaping filters**
+  - `Regex` 정규표현식 사용을 통해 문자열을 변환한다.
 
 ---
 
 `Regex`가 아직 많이 어렵지만, 관련 자료가 많이 있고, 장점이 많이 있다.
+
 XSS 공격을 방어할 수 있는 정규표현식에 대해 아래 자료들을 통해 더 알아보자!
 
-[RegEx Tutorial](https://flaviocopes.com/javascript-regular-expressions/#introduction-to-regular-expressions)
+- [RegEx Tutorial](https://flaviocopes.com/javascript-regular-expressions/#introduction-to-regular-expressions)
 
-[RegEx Testing](https://www.regextester.com/96605)
+- [RegEx Testing](https://www.regextester.com/96605)
 
-[JS-Security-Best-Practice](https://docs.wpvip.com/technical-references/security/javascript-security-recommendations/)
+- [JS-Security-Best-Practice](https://docs.wpvip.com/technical-references/security/javascript-security-recommendations/)
 
-[Preventing XSS](https://gomakethings.com/preventing-cross-site-scripting-attacks-when-using-innerhtml-in-vanilla-javascript/)
+- [Preventing XSS](https://gomakethings.com/preventing-cross-site-scripting-attacks-when-using-innerhtml-in-vanilla-javascript/)
 
-[OWASP Cheat Sheet](https://github.com/OWASP/CheatSheetSeries)
+- [OWASP Cheat Sheet](https://github.com/OWASP/CheatSheetSeries)

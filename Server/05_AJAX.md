@@ -1,10 +1,12 @@
-## AJAX (Asynchronous JavaScript and XML)
+# AJAX (Asynchronous JavaScript and XML)
 
 - 페이지 전체 로딩 없이, 페이지의 일부만 업데이트하기 위한 방법이다.
   - ​JavaScript와 DOM을 이용한다.
 - 서버 응답에 따라 동적으로 페이지의 구성요소를 변경하는 방법이다.
+- AJAX의 중요성: 비동기적으로 DOM을 이용하여 페이지 일부만 변경하는 기술
+- AJAX 통신을 가능하게 하는 API (fetch API 등)이 있다.
 
-#### ​XMLHttpRequest (XHR)
+## ​XMLHttpRequest (XHR)
 
 - 서버와 자유롭게 통신할 수 있게 해주는 역할을 한다.
 

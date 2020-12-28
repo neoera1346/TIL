@@ -74,4 +74,4 @@ $("button").on("click", function () {
 
 ---
 
-**`package.json`에 관련한 내용은 [여기]()에서 확인 가능하다.**
+**`package.json`에 관련 자세한 내용은 [여기](https://github.com/neoera1346/TIL/blob/master/Server/Package.json.md)에서 확인 가능하다.**

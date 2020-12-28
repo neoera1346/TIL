@@ -1,21 +1,25 @@
-# HTTP (HyperText Transfer Protocol)
+# HTTP (HyperText Transfer Protocol) Basics
 
 - `서버-클라이언트` 통신의 **규약, 규칙**이다.
 - 클라이언트와 서버는 `프로토콜(Protocol)`이라고 불리는 정해진 규약에 따라 메시지를 교환한다.
+
+---
 
 ## HTTP Elements
 
 - HTTP 통신은 항상 요청과 응답으로 구성되어 있다.
 - 응답이 없거나 요청이 무시되면 클라이언트(웹)에서는 에러가 발생한다.
-  - 응답에는 요청 성공여부를 나타내는 코드들이 존재한다. [참고](https://developer.mozilla.org/ko/docs/Web/HTTP/Status)
+  - 응답에는 요청 성공여부를 나타내는 코드들이 존재한다. → [참고](https://developer.mozilla.org/ko/docs/Web/HTTP/Status)
 - HTTP 요청은 Header와 Body로 구성되어 있다.
   - `Header`에는 기본적으로 아래와 같은 정보들이 들어간다.
     1. 어디서 보내는 요청인가(origin)
     2. 컨텐츠 타입은 무엇인가(content-type)
     3. 어떤 클라이언트를 이용해 보냈는가 (user-agent)
-  - `Header`에 대한 추가 정보를 잘 정리해놓은 블로그가 있다. [참고](https://www.zerocho.com/category/HTTP/post/5b3ba2d0b3dabd001b53b9db)
+  - `Header`에 대한 추가 정보를 잘 정리해놓은 블로그가 있다. → [참고](https://www.zerocho.com/category/HTTP/post/5b3ba2d0b3dabd001b53b9db)
   - `Body`에는 각 [다양한 Request 메소드](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)가 들어간다.
   - 응답도 마찬가지로 `Header`와 `Body`를 가진다.
+
+---
 
 ## HTTP Properties
 
@@ -25,6 +29,8 @@
     2. 따라서, HTTP에는 state라는 것이 없다.
   - `Connectionless`: 한번의 요청에는 한번의 응답을 한다.
     1. 한번 요청에 대한 응답을 한 이후에는 연결이 끊기기 때문에, 더이상 응답을 할 수 없다.
+
+---
 
 ## HTTP Methods
 
@@ -37,17 +43,7 @@
 
 ---
 
-**URL (Uniform Resource Locator) 구성**
-
-- http://www.google.com/search?q=puppies#p2
-- `scheme`: http, https, ssh, git
-- `host`: google.com, localhost, 192. 168.1.1
-- `subdomain`: www, mail, blog
-- `path`: search, about.html, blog/entries/2/big-day
-- `query string`: q=puppies/ref=mobile&page=4
-- `hash fragment`: p2, FAQ, /profile/edit
-
-**HTTP Status Code (응답 코드)**
+**HTTP Response Status Code (응답 코드)**
 
 - `1xx`: Hold On
 - `2xx`: Here You GO / 요청 성공
