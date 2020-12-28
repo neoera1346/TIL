@@ -1,13 +1,48 @@
 # Server
 
-- [Interaction with Server](https://github.com/neoera1346/TIL/blob/master/Server/Interaction_with_server.md)
+- [Web Architecture](https://github.com/neoera1346/TIL/blob/master/Server/01_Web_Architecture.md)
+  - Server-Client
   - Server
-  - Browser
   - Client
+- [Interaction With Server](https://github.com/neoera1346/TIL/blob/master/Server/02_Interaction_With_Server.md)
+  - Messaging Patterns
+  - Interface
   - API
-  - HTTP
-  - AJAX
+  - UI
+  - Browser
 - [Browser Security](https://github.com/neoera1346/TIL/blob/master/Server/Browser_Security.md)
   - CORS
+  - CSRF
   - XSS
     - Regex
+- [HTTP](https://github.com/neoera1346/TIL/blob/master/Server/04_HTTP.md)
+  - Elements
+  - Properties
+  - Methods
+  - Response Status Codes
+- [AJAX](https://github.com/neoera1346/TIL/blob/master/Server/05_AJAX.md)
+  - 표준 API 변천 과정
+    - ​XMLHttpRequest (XHR)
+    - JQUERY
+    - Fetch API
+- [Fetch](https://github.com/neoera1346/TIL/blob/master/Server/06_Fetch.md)
+  - Fetch Method :
+  - Fetch (url, [options])
+  - Fetch Process
+- [Node.js](https://github.com/neoera1346/TIL/blob/master/Server/07_Node.js.md)
+  - What is Node.js
+    - Node Core Modules
+  - NPM
+- [Package.json](https://github.com/neoera1346/TIL/blob/master/Server/08_Package.json.md)
+  - Composition
+- [Network Tab](https://github.com/neoera1346/TIL/blob/master/Server/09_Network_Tab.md)
+  - URL Composition
+  - How HTTP Functions
+  - HTTP Advanced
+    - HTTP Request
+    - HTTP Response
+  - HTTP Status Code (응답 코드)
+  - Console-Network Tab
+  - Useful Links
+
+---

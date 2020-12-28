@@ -1,15 +1,6 @@
 # Web Architectures
 
-- 웹 개발과 관련된 아키텍처
-  - Browser와 서버와의 연결은 HTTP 통신 규약을 통해서 이루어진다.
-- AJAX의 중요성: 비동기적으로 DOM을 이용하여 페이지 일부만 변경하는 기술
-- AJAX 통신을 가능하게 하는 API (fetch API 등)이 있다.
-
----
-
-## 핵심 키워드
-
-- **`Server, Client, HTTP, API, , XMLHttpRequest, Ajax`**
+- **프론트 개발자던, 백엔드 개발자던, 모두 웹 개발과 관련된 아키텍처들을 알아야한다.**
 
 ---
 
