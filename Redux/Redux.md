@@ -93,9 +93,30 @@ Action 예시 코드
 
 ---
 
+## Big Four of Redux
+
+Predictable
+
+- React 앱 코드의 일관성을 유지할 수 있고, 클라이언트, 서버, Native등 다양한 환경에서 실행되며, 테스트에 용이하다.
+
+Centralized
+
+- 애플리케이션의 상태와 로직들을 Store라는 한 공간에 모아놓기 때문에 실행 취소 및 재실행, 상태유지 등등, 강력한 기능들을 가능하게 해준다.
+
+Debuggable
+
+- `Redux DevTools` 덕분에 애플리케이션의 상태가 언제, 어디서, 왜 그리고 어떻게 변했는지 추적하기가 용이하다.
+
+Flexible
+
+- 다양한 UI Layer와 함께 작동할 수 있고, 여러 add-on 추가 또한 가능하다.
+
+---
+
 ## Useful Links
 
 Redux 관련해서 매우 좋은 인사이트를 주는 사이트가 있다
 
 - [React Redux Tutorial](https://www.robinwieruch.de/react-redux-tutorial)
 - [Flux Pattern 공식 문서](https://facebook.github.io/flux/docs/in-depth-overview/)
+- [Redux 공식 문서](https://redux.js.org/)
