@@ -15,3 +15,11 @@
 ✅ React Hooks의 사용법에 대해 이해하고 있다.
 
 ✅ Pure Function, Side Effect의 의미를 알고 있다.
+
+---
+
+# Index
+
+- Redux
+
+- Using Redux
