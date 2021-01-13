@@ -82,3 +82,28 @@ Schema를 그려봄으로서 데이터 테이블간의 관계를 연관지을 �
 ### Foriegn Key
 
 - 다른 테이블에서 테이블의 기본 키(Primary Key)를 참조할 때 해당 값을 외래 키(Foriegn Key)라고 부른다.
+
+## Important!
+
+SQL을 사용할 때 본인의 MySQL 정보는 물론이고, 다른 민감한 데이터들도 있을 것이다. 이런 정보들은 모두 하나의 `.env`파일에 몰아넣는 것이 좋다. 이런 `.env`파일은 절대 외부에 공개되면 안되기 때문에 `.gitignore`파일에 존재해야 한다.
+
+[dotenv 관련 공식 문서](https://www.npmjs.com/package/dotenv)
+
+---
+
+# Useful Links
+
+## MySQL
+
+- [MySQL CREATE TABLE reference docs](https://dev.mysql.com/doc/refman/8.0/en/create-table.html)
+- [MySQL SELECT reference docs](https://dev.mysql.com/doc/refman/8.0/en/select.html)
+- [MySQL INSERT reference docs](https://dev.mysql.com/doc/refman/8.0/en/insert.html)
+- [Executing SQL statements from a file](https://dev.mysql.com/doc/refman/8.0/en/batch-mode.html)
+- 위 링크들 모두 MySQL 공식 문서 글들이다.
+- [Node mysql module docs](https://github.com/mysqljs/mysql)
+  - SQL과 Connect하는 방법 이외에 많은 유용한 정보가 있으니 꼭 참고하자.
+
+## ORM
+
+- [Sequelize ORM for Node](https://sequelize.org/v5/)
+- [Sequelize-CLI](https://sequelize.org/v5/manual/migrations.html)
