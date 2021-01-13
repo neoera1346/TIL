@@ -45,7 +45,7 @@ http.get("http://localhost:5000/api", (res) => {
 ```
 
 ```js
-const $ = require("jqery");
+const $ = require("jquery");
 
 $("button").on("click", function () {
   console.log("button clicked!!!");
