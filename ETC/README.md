@@ -13,4 +13,22 @@
   - Best Practices
   - Useful Links
 
-- MVC Design Pattern
+- MVC
+
+  - MVC Design Pattern
+  - Model
+  - View
+  - Controller
+  - Why We Should Use MVC Pattern
+  - MVC Pattern Examples
+  - Summary
+
+- ORM
+  - Goals
+  - Persistence
+  - ORM
+  - Pros & Cons of ORM
+  - Sequelize
+  - Starting Sequelize
+  - Advanced Study
+  - Useful Links
