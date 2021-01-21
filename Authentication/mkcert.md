@@ -13,7 +13,7 @@
 2. 로컬 환경에 대한 인증서를 만들어야 한다. `localhost`로 대표되는 로컬 환경에 대한 인증서를 만들려면 다음 명령어를 입력해야 한다.
 
    ```
-   $ mkcert -key-file key.pem -cert-file cert.pem localhost 127.0. 0.1 ::1
+   $ mkcert -key-file key.pem -cert-file cert.pem localhost 127.0.0.1 ::1
    ```
 
    위 명령어를 실행하고 나면 로컬 환경에서 사용할 수 있는 인증서가 완성되었고, `cert.pem`, `key.pem`이라는 파일이 생성된다.
