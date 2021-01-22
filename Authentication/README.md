@@ -21,24 +21,12 @@
 
 ---
 
-## 인증서
+# Index
 
-- 데이터 제공자 신원 보장
-- 도메인 종속
-
-## CA
-
-- 공인 인증서 발급 기관
-- Certificate Authority
-
-## 비대칭 키 암호화
-
-- 키 A로 암호화했다면, 키 B로만 복호화 가능하다.
-
----
-
-# Hashing
-
-## Salt
-
-- Rainbow Table
+- Cookie
+- Encryption
+- HTTPS
+- OAuth
+- Session
+- Token
+- mkcert
