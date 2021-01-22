@@ -1,3 +1,15 @@
+# Table of Contents
+
+- Cookie
+- Encryption
+- HTTPS
+- OAuth
+- Session
+- Token
+- mkcert
+
+---
+
 # Authentication
 
 - 우리는 회원 가입 및 로그인, 로그아웃과 같은 기능을 구현할 때가 있는데, 이와 더불어 큰 개념인 인증(Authentication)에 대해서 알아보자.
@@ -18,15 +30,3 @@
 - 클라이언트, 서버, 데이터베이스의 전체 동작을 이해할 수 있다.
 - 회원가입 및 로그인 등의 유저 인증에 대해 구현하고 이해한다.
 - 서비스의 보안과 관련된 방법을 알아보고 원리 및 장점 및 단점을 이해한다.
-
----
-
-# Index
-
-- Cookie
-- Encryption
-- HTTPS
-- OAuth
-- Session
-- Token
-- mkcert
