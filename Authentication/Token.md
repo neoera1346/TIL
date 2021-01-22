@@ -78,7 +78,33 @@
 
 - JSON Web Token(JWT)는 이름에서 알 수 있듯이 JSON 기반의 인증 토큰이다.
 
-## JWT Components
+---
+
+# Install
+
+**설치방법:**
+
+```
+$ npm install jsonwebtoken
+```
+
+---
+
+# Usage
+
+**사용방법:**
+
+```js
+jwt.sign(payload, secretOrPrivateKey, [options, callback]);
+```
+
+```js
+jwt.verify(token, secretOrPublicKey, [options, callback]);
+```
+
+---
+
+# JWT Components
 
 JWT는 다음과 같은 구성을 갖는다.
 
@@ -146,3 +172,9 @@ HMACSHA256(base64UrlEncode(header) + "." + base64UrlEncode(payload), secret);
 - 서버사이드에서 클라이언트들을 관리할 수가 없다.
 
 ---
+
+# Useful Links
+
+- [Github - JWT Repo](https://github.com/auth0/node-jsonwebtoken#usage)
+- [npmjs - JWT](https://www.npmjs.com/package/jsonwebtoken)
+- [JWT 발급하기](https://backend-intro.vlpt.us/4/01.html)
