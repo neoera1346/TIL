@@ -134,8 +134,10 @@ app.use("/users", express.static("uploads"));
 
 # Useful Links
 
-[서버 측 JS - 파일 업로드 방법](https://opentutorials.org/course/2136/11959)
+- [서버 측 JS - 파일 업로드 방법](https://opentutorials.org/course/2136/11959)
 
-[Nodejs 파일 업로드](https://wayhome25.github.io/nodejs/2017/02/21/nodejs-15-file-upload/)
+- [Nodejs 파일 업로드](https://wayhome25.github.io/nodejs/2017/02/21/nodejs-15-file-upload/)
 
-[Multer 공식 문서](https://github.com/expressjs/multer)
+- [Multer 공식 문서](https://github.com/expressjs/multer)
+
+- [npmjs - Multer](https://www.npmjs.com/package/multer)

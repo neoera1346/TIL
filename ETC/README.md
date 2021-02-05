@@ -24,6 +24,7 @@
   - Summary
 
 - ORM
+
   - Goals
   - Persistence
   - ORM
@@ -31,4 +32,11 @@
   - Sequelize
   - Starting Sequelize
   - Advanced Study
+  - Useful Links
+
+- Multer
+  - Multer Introduction
+  - File Upload Form
+  - Multer Uses
+  - Advanced Multer
   - Useful Links
