@@ -65,3 +65,34 @@
   ```
   $ git reset <--옵션> <돌아가고싶은 커밋>
   ```
+
+---
+# Useful Commands
+
+Mac OS 환경이나 Linux 환경에서 Terminal을 사용하면서 ls 혹은 clear 와 같은 명령어를 사용하다가 Windows의 Command Prompt로 와서 습관처럼 쓰던 명령어를 사용하게되면 터미널 창에서 아래와 같은 에러를 보게되는 것을 이번에 처음 Windows 데스크탑을 장비하게되면서 알게되었다.
+
+` 'ls'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.`
+
+이런 경우, 두 가지 방법이 있다.
+
+1. Windows용 명령어로 사용하거나,
+2. **MacOS/Linux에서 사용하던 명령어를 Windows에서 그대로 사용이 가능하도록 설정해줄 수가 있다.**
+
+방법은 다음과 같다.
+
+`doskey 사용하고자 하는 명령어 = 기존 Windows 명령어`
+
+예시: 
+
+1. **ls** 설정방법
+
+`> doskey ls = dir`
+
+2. **clear** 설정방법
+
+`> doskey clear = cls`
+
+
+
+
+
